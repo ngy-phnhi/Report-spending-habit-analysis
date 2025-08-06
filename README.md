@@ -1,76 +1,103 @@
 <img width="2206" height="1281" alt="image" src="https://github.com/user-attachments/assets/ca1f835d-11ee-4101-a821-925679aaf5ea" />
 
-# 💰 Actual Spending Behavior Analysis
+# 🧾 Actual Spending Behavior Dashboard
 
-This project presents an interactive dashboard focused on analyzing **personal financial behavior** over the course of 5 years (2020–2024). It leverages real spending and income data to uncover insights into saving habits, essential vs. non-essential expenditures, and monthly financial trends.
+## 📌 Table of Contents
+1. [Overview](#overview)
+2. [Dataset Description](#dataset-description)
+3. [Dashboard Structure](#dashboard-structure)
+4. [Key Insights & Recommendations](#key-insights--recommendations)
+5. [Tools Used](#tools-used)
+6. [Files Included](#files-included)
 
-## 📌 Objective
-To understand individual spending patterns, assess savings behavior, and identify areas for better financial planning.
+---
 
-## 🛠 Tools & Techniques
-- **Tableau** (Visualization)
-- **Calculated Fields** to compute:
-  - Saving
-  - Spending transaction rates
-  - Repeat category rates
-  - Expense classification (essential vs. non-essential)
-  - Convert type
+## Overview
 
-## 📊 Dashboard Features
-- **Income vs. Expense KPIs** (with monthly trends)
-- **Net Saving Status** (dynamic over time)
-- **Spending Structure** pie chart
-- **Spending & Saving Overview** bar chart
-- **Category Breakdown** with filters
-- **Monthly Expense Trend Line**
-- **Repeat Category Rate** KPI (habitual behavior insight)
+This project presents an **interactive Tableau dashboard** analyzing 5 years (2020–2024) of **personal finance behavior**. It aims to uncover saving potential, identify overspending habits, and provide realistic recommendations for financial improvement.
 
-## 🔍 Key Insights & Recommendation
+---
 
-Despite a total income of **$883,141** over five years, the user incurred **a net loss of nearly $195,000**, driven by consistently overspending.  
-Average **monthly deficit exceeds $3,250**, indicating a pressing need for better cash flow management.
+## Dataset Description
 
-### Main Observations:
-- **Spending exceeds income in most months (2020–2024)**
-  - Only ~18% of months recorded positive savings.
-  - Suggests a persistent imbalance in income-expenditure ratio.
+**Personal Finance Dataset**
 
-- **Unstable savings behavior**
-  - Savings fluctuate irregularly across time periods.
-  - Indicates a lack of budgeting discipline or monitoring tools.
+- **Type**: Synthetic (realistic simulation)
+- **Size**: 1,500 rows × 5 columns
+- **Quality**: No missing or duplicate values
 
-- **Over 99% repeat category rate**
-  - Spending decisions are highly habitual.
-  - Points to behavioral patterns rather than occasional surges.
+**Features:**
+- `Date`: Transaction date  
+- `Transaction Description`: Transaction label  
+- `Category`: Income or expense category  
+- `Amount`: Amount of money spent or earned  
+- `Type`: Expense or Income
 
-- **Non-essential expenses dominate**
-  - Categories like Travel, Shopping, and Food & Drink take up significant proportions.
-  - Essential expenses account for less than 40% in most months.
+**Objective**:
+- Monitor actual income and expenses
+- Detect habitual spending
+- Support users in achieving better budgeting and savings habits
 
-### 💡 Recommendation to Management:
-To move toward financial stability, the user should focus on **habit-based adjustments** rather than drastic overhauls. Based on dashboard insights, these are some personalized actions:
+---
 
-- **Set a monthly spending cap for Shopping & Travel**  
-  → These two alone take up ~40% of all expenses in some months. Reducing them by even **20%** can improve savings significantly.
+## Dashboard Structure
 
-- **Introduce a “No Spend” rule for certain weeks or categories**  
-  → For example: No non-essential purchases in the last week of each month.
+The dashboard contains 4 key sections:
 
-- **Use category-level budgeting**  
-  → Allocate fixed amounts per category (e.g., $500/month max for Food & Drink). Monitor with free apps or Excel.
+1. **KPI Summary Cards**  
+   - Total Income, Total Expenses, Net Saving  
+   - Trend indicators per year  
 
-- **Build an emergency fund equivalent to 3–6 months of essential expenses**  
-  → Use savings from reduced non-essential expenses to contribute monthly.
+2. **Monthly Spending Trend**  
+   - Visual timeline of monthly expenses  
+   - Highlights spikes and consistency  
 
-- **Track savings as a KPI**  
-  → Just like income/expense, measure savings monthly and set growth goals (e.g., $500/month saved by Q2).
+3. **Spending Distribution**  
+   - Pie chart of spending categories  
+   - Identifies dominant expenses (e.g., Shopping, Entertainment)  
 
-These changes are actionable, realistic, and tailored directly from the spending behavior visualized in the dashboard.
-## 📁 Files Included
-- `Dash_Personal.twbx`: Tableau packaged workbook
-- `Personal_Finace.xlsx`: dataset
-- `Dashboard Actual Spending Behavior Analysic.pdf`: image dash
+4. **Saving Opportunity Analysis**  
+   - Estimates potential savings  
+   - Essential vs. Non-essential expenses breakdown  
 
-----
+---
+
+## Key Insights & Recommendations
+
+### 📍 Insights
+
+- **Overspending Detected**: Net loss of ~$195,000 despite $883,000 income  
+- **Only ~18% months showed positive saving**  
+- **Spending behavior is highly habitual (>99% repeated categories)**  
+- **Non-essential expenses dominate (up to 60% of monthly spending)**
+
+### 💡 Recommendations
+
+- Reduce spending in **Shopping & Travel** → Cap monthly limit (e.g., 20% reduction = +$700/month saved)
+- Use budgeting tools (e.g., Excel, PocketGuard) to track categories
+- Introduce **“No-Spend Weeks”** to break habitual patterns
+- Allocate at least **15–20%** of income to automated savings
+- Build a **3–6 month emergency fund** using savings from reduced non-essentials
+
+These are **personalized, data-driven recommendations** derived directly from behavior visualized in the dashboard.
+
+---
+
+## Tools Used
+
+- **Tableau** (Data visualization)
+- **Calculated Fields** (to create KPIs, classify expenses, analyze trends)
+
+---
+
+## Files Included
+
+- `report_spending_behavior_dashboard.twbx` — Tableau workbook  
+- `Personal_Finance.xlsx` — Transaction dataset  
+- `Dashboard_Actual_Spending_Behavior.pdf` — Dashboard snapshot
+
+---
+
+> 📝 *Created by Nguyen Phuong Nhi as part of a data visualization and storytelling project.*
 
 *Built with Tableau. Created by [Nguyen Phuong Nhi].*
