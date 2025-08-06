@@ -48,13 +48,24 @@ Average **monthly deficit exceeds $3,250**, indicating a pressing need for bette
   - Essential expenses account for less than 40% in most months.
 
 ### 💡 Recommendation to Management:
-Consider implementing a **personal finance monitoring system** with:
-- Alerts when monthly spending exceeds income.
-- Visual tracking of net savings and monthly deficits.
-- Highlighting high-repeat expense categories for behavioral awareness.
-- Setting savings targets with feedback indicators.
-Such actions can guide users or employees toward **more sustainable financial behaviors**, reduce long-term risks, and foster a data-informed culture of financial responsibility.
+To move toward financial stability, the user should focus on **habit-based adjustments** rather than drastic overhauls. Based on dashboard insights, these are some personalized actions:
 
+- **Set a monthly spending cap for Shopping & Travel**  
+  → These two alone take up ~40% of all expenses in some months. Reducing them by even **20%** can improve savings significantly.
+
+- **Introduce a “No Spend” rule for certain weeks or categories**  
+  → For example: No non-essential purchases in the last week of each month.
+
+- **Use category-level budgeting**  
+  → Allocate fixed amounts per category (e.g., $500/month max for Food & Drink). Monitor with free apps or Excel.
+
+- **Build an emergency fund equivalent to 3–6 months of essential expenses**  
+  → Use savings from reduced non-essential expenses to contribute monthly.
+
+- **Track savings as a KPI**  
+  → Just like income/expense, measure savings monthly and set growth goals (e.g., $500/month saved by Q2).
+
+These changes are actionable, realistic, and tailored directly from the spending behavior visualized in the dashboard.
 ## 📁 Files Included
 - `Dash_Personal.twbx`: Tableau packaged workbook
 - `Personal_Finace.xlsx`: dataset
