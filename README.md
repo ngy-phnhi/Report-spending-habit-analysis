@@ -71,9 +71,6 @@ These changes are actionable, realistic, and tailored directly from the spending
 - `Personal_Finace.xlsx`: dataset
 - `Dashboard Actual Spending Behavior Analysic.pdf`: image dash
 
-## 📎 Use Case
-Ideal for use in personal finance apps, fintech analytics, or behavioral spending research.
-
----
+----
 
 *Built with Tableau. Created by [Nguyen Phuong Nhi].*
